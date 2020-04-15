@@ -1,0 +1,19 @@
+{
+  "name": "swaggermock",
+  "version": "1.0.0",
+  "description": "swagger转mock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenglie33/swaggerToMock.git"
+  },
+  "author": "chenglie33",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenglie33/swaggerToMock/issues"
+  },
+  "homepage": "https://github.com/chenglie33/swaggerToMock#readme"
+}
