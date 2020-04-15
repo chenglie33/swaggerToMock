@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "swagger转mock",
   "main": "index.js",
+  "mockConfig": {
+    "mockHead": "mock-s",
+    "page": 20,
+    "output": "./src/mockTemplate/",
+    "swaggerList": [
+      "http://10.42.3.12:8522"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mockinit": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +24,19 @@
   "bugs": {
     "url": "https://github.com/chenglie33/swaggerToMock/issues"
   },
-  "homepage": "https://github.com/chenglie33/swaggerToMock#readme"
+  "homepage": "https://github.com/chenglie33/swaggerToMock#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "eslint": "^4.15.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
 }
